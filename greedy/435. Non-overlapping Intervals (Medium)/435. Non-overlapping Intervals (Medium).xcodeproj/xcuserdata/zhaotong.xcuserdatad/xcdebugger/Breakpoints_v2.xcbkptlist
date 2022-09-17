@@ -7,15 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "896B87C4-62A9-44BA-9CAA-60DFEC71DC3C"
+            uuid = "28EA314E-EBC0-47AD-878B-E1BB3A389B29"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "435. Non-overlapping Intervals (Medium)/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -23,16 +23,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AEBA68A3-032E-4490-B6F7-B4470C9A0C03"
+            uuid = "0838DFE0-6421-4F1D-B5DC-F4FC9715269B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "435. Non-overlapping Intervals (Medium)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "eraseOverlapIntervals(intervals)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBD03E77-24D8-4812-A883-A8200698808E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "435. Non-overlapping Intervals (Medium)/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "main(argc, argv)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "eraseOverlapIntervals(intervals)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
