@@ -11,6 +11,7 @@
 using namespace std;
 
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n);
+void merge2(vector<int>& nums1, int m, vector<int>& nums2, int n);
 int main(int argc, const char * argv[]) {
     // insert code here...
     vector<int >nums1,nums2;
@@ -25,7 +26,7 @@ int main(int argc, const char * argv[]) {
         if(cin.get()=='\n')break;
     }
     cin>>n;
-    merge(nums1, m, nums2, n );
+    merge2(nums1, m, nums2, n );
     for(auto i:nums1){
         cout<<i<<'\t';
     }
@@ -37,4 +38,13 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         nums1[m++]=nums2[i];
     }
     sort(nums1.begin(), nums1.end());
+}
+void merge2(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    int pos=m-- +n-- -1;
+    while(m>=0&&n>=0&&pos>=0){
+        nums1[pos--]=nums1[m]>=nums2[n]?nums1[m--]:nums2[n--];
+    }
+    while(n>=0){
+        nums1[pos--]=nums2[n--];
+    }
 }
