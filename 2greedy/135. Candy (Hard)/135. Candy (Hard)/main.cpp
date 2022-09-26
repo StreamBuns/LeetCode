@@ -34,6 +34,7 @@ int main(int argc, const char * argv[]) {
     }
     cout<<candy2(scoreArray)<<endl;
     
+    
     return 0;
 }
 int candy(vector<int>& ratings) {
