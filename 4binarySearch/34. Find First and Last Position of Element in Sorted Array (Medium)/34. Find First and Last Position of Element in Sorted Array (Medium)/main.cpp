@@ -25,12 +25,7 @@ vector<int> searchRange(vector<int>& nums, int target){
     
     vector<int> returnArray;
     if(nums.size()<=0) return returnArray={-1,-1};
-//    if(nums.size()==1){
-//        if(nums[0]!=target){
-//            return returnArray={-1,-1};
-//        }
-//        else return returnArray={0,0};
-//    }
+
         
     int left=0,right=(int)nums.size()-1;
     int mid=(left+right)/2;
